@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+.heading{
+width: 100%;
+font-size: 18px;
+margin: 0;
+}
+#all_objects{
+    width: 30%;
+    color: black;
+}
+#starter{
+    width: 10%;
+    box-shadow: 5px 5px 5px rgb(7, 75, 7);
+}
+canvas{
+    
+    border: 2px solid rgba(255, 111, 0, 0.89);
+    border-radius: 40px;
+    margin-top: 115px;
+    box-shadow: 10px 10px 10px orangered;
+    
+}

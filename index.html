@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Object finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body background="background-textures.webp">
+
+<center>
+<h1 class="btn btn-warning heading">Object Finder
+<br>
+<p style="font-size: 13px;"> Wright in the input box the object you want to detect and it will set an alarm when it detects it.</p>
+</h1>
+ 
+<h6>Object name :</h6>
+<input id="all_objects"></input>
+
+<br> <br>
+<button onclick="start()" class="btn btn-success" id="starter">Start</button>
+<br>
+ <div>
+    <h3 class="btn btn-info" id="object_found"> Objects Found :</h3>
+
+<h3 class="btn btn-danger" id="status">Status :</h3>
+ </div>
+</center>
+
+
+
+        <script src="main.js"></script>
+
+    </body>
+</html>
